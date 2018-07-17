@@ -18,9 +18,12 @@ function init() {
   main.addEventListener('keydown', function(e){
     const key = e.key;
     if(key === codes[index]) {
-    index++;
+      index++;
     
-    if (index === codes.length) {
-      alert("You win!")
-    })
+      if (index === codes.length) {
+        alert("You win!")
+      } else {
+        index = 0;
+      }
+   
 }
