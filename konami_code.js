@@ -12,7 +12,7 @@ const codes = [
 ];
 
 let index = 0;
-const main = document.body
+const main = document.getElementById('body');
 
 function init() {
   const key = e.key
