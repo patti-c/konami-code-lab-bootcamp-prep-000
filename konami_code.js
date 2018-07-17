@@ -15,17 +15,12 @@ let index = 0;
 const main = document.getElementById('body');
 
 function init() {
-  const key = e.key
-  
   main.addEventListener('keydown', function(e){
-    
-  })
-  
-  if(key === codes[index]) {
+    const key = e.key;
+    if(key === codes[index]) {
     index++;
     
     if (index === codes.length) {
       alert("You win!")
-    }
-  }
+    })
 }
