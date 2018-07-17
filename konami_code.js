@@ -22,9 +22,12 @@ function init() {
     
       if (index === codes.length) {
         alert("You win!");
-      } else {
-        index = 0;
-      }
+      } 
+      
+    } else {
+      index = 0;
+    }
+    } 
     }
   });
 }
