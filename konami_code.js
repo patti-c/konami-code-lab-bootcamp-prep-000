@@ -12,6 +12,7 @@ const codes = [
 ];
 
 let index = 0;
+const main = document.body
 
 function init() {
   const key = e.key
