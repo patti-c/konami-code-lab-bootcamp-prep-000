@@ -21,9 +21,10 @@ function init() {
       index++;
     
       if (index === codes.length) {
-        alert("You win!")
+        alert("You win!");
       } else {
         index = 0;
       }
-   
+    }
+  });
 }
