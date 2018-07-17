@@ -17,6 +17,8 @@ const main = document.getElementById('body');
 function init() {
   const key = e.key
   
+  main.addEventListener
+  
   if(key === codes[index]) {
     index++;
     
